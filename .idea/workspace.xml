@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e28971b-6d16-47ff-83e3-4ccc7a041382" name="Default Changelist" comment="" />
+    <list default="true" id="7e28971b-6d16-47ff-83e3-4ccc7a041382" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/model/RedisHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/model/RedisHelper.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -700,7 +703,8 @@
       <workItem from="1586405749216" duration="96000" />
       <workItem from="1588307742152" duration="601000" />
       <workItem from="1588308540523" duration="1535000" />
-      <workItem from="1588318037917" duration="653000" />
+      <workItem from="1588318037917" duration="1272000" />
+      <workItem from="1589950915190" duration="1031000" />
     </task>
     <servers />
   </component>
@@ -738,22 +742,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583121698293" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586405844635">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588326151167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586405844635" />
-    <state x="774" y="333" key="NewPhpClassDialog" timestamp="1582201232697">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588326151167" />
+    <state x="774" y="333" key="NewPhpClassDialog" timestamp="1589951551094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="774" y="333" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582201232697" />
+    <state x="774" y="333" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589951551094" />
     <state x="776" y="443" key="NewPhpFileDialog" timestamp="1581853725586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581853725586" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1578039721483">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1578039721483" />
     <state x="567" y="225" width="786" height="600" key="find.popup" timestamp="1585809933685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

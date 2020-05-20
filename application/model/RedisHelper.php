@@ -4,16 +4,29 @@
 namespace app\model;
 
 
-class RedisHelper
+use think\cache\driver\Redis;
+use think\facade\Config;
+
+class RedisHelper extends Redis
 {
+    protected static $instance;
+
+    public function __construct()
+    {
+        $options = Config::get('cache');
+        parent::__construct($options);
+    }
+
+    private function __clone()
+    {
+    }
+
+
     public static function GetInstance()
     {
-        bind('redis','\Redis');
-        $redis = app('redis');
-        $redis->connect(config('cache.host'), config('cache.port'));
-        if (!empty(config('cache.password'))){
-            $redis->auth(config('cache.password'));
+        if (!isset(self::$instance)) {
+            self::$instance = new self();
         }
-        return $redis;
+        return self::$instance;
     }
 }
