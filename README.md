@@ -13,7 +13,7 @@
 - 作者系统
 - 对接公众号系统
 - 前台一些列表页面使用vue上拉加载，用户体验更好
-- 5.0不开源，需要的话请加QQ群咨询，群号在下面
+- 开源地址：https://github.com/hiliqi/raccoon5
 
 # 关于
 - 官方论坛：http://xhxcms.com
