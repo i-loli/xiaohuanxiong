@@ -15,6 +15,9 @@
 - 对接公众号系统
 - 5.0不开源，具体加下面的QQ群咨询
 
+# 小浣熊英文漫画CMS
+适合做英文漫画，功能齐全，针对谷歌SEO做了优化，另自带英文漫画资源的采集。不开源，具体加下面的QQ群咨询。
+
 # 关于
 - 官方论坛：http://xhxcms.com
 - 文档地址：https://www.kancloud.cn/hiliqi/xwx_comic_cms
