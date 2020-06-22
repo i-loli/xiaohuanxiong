@@ -75,7 +75,7 @@ class Index extends Base
         foreach ($tags as $tag) {
             $books = cache('booksFilterByTag:'.$tag);
             if (!$books) {
-                $books = $this->bookService->getByTag($tag->tag_name);
+                $books = $this->bookService->getByTag($tag->tag_name, 15);
                 cache('booksFilterByTag:'.$tag, $books, null, 'redis');
             }
             $cateItem['books'] = $books->toArray();

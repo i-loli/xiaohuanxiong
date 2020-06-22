@@ -139,7 +139,7 @@ class BookService extends Base
         return Book::where('book_name', '=', $name)->find();
     }
 
-    public function getByTag($tag)
+    public function getByTag($tag, $limit)
     {
         $books = Book::where('tags', 'like', '%' . $tag . '%')->select();
         foreach ($books as &$book) {
